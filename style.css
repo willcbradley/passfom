@@ -23,10 +23,40 @@ a:active {
     text-decoration: underline;
 }
 
+.back,
+.forward {
+    flex: 1;
+}
+
 .body {
-    margin: 3rem auto 0;
+    margin: 3rem auto 3rem;
     width: 90%;
     max-width: 540px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-inline: 2px;
+    padding-block: 5px;
+    text-align: center;
+    color: black;
+}
+
+.button:hover,
+.button:active {
+    color: #679f69;
+    border: 1px solid #679f69;
+    text-decoration: none;
+}
+
+.bw {
+    position: fixed;
+    bottom: 3rem;
+}
+
+.contact {
+    flex: 4;
 }
 
 .content {
@@ -50,8 +80,8 @@ a:active {
     padding-block: 1rem;
 }
 
-.footer a {
-    color: #679f69;
+.green {
+    color: #679f69
 }
 
 .invis {
@@ -74,5 +104,9 @@ a:active {
 @media (max-width: 640px) {
     .body {
         margin-top: 0.8rem;
+    }
+
+    .bw {
+        bottom: 0.8rem;
     }
 }

@@ -1,4 +1,4 @@
-const pages = ["intro", "any", "med", "school", "worth"];
+const pages = ["intro", "any", "med", "school", "worth", "next"];
 
 document.addEventListener("keydown", (event) => {
     const current = window.location.pathname.split("/").pop();
