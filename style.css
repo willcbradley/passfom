@@ -101,6 +101,10 @@ a:active {
     position: sticky;
 }
 
+.title {
+    font-size: 1.8rem;
+}
+
 @media (max-width: 640px) {
     .body {
         margin-top: 0.8rem;
